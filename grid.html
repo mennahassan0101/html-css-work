@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid practice</title>
+    <style>
+        .first-image{
+            width:300px;
+        }
+        .profile-pic{
+            border-radius: 50px;
+            width:40px;
+            margin-top:16px;
+        }
+        .p1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            padding-top: 0px;
+            padding-left:3px;
+        }
+        .p2,.p3{
+            color: rgb(96, 93, 93);
+            font-size: smaller;
+        }
+    </style>
+</head>
+<body>
+    <div class="v-block" style="display: grid; grid-template-columns: 310px 310px 310px 310px;" >
+        <div class="v1" >
+            <div class="image"> 
+                <img class="first-image" src="images/thumbnail-1.webp" >
+            </div>
+            <div class="v1-grid" style="display:grid; grid-template-columns: 40px 1fr;">
+                <div class="profile"> <img class="profile-pic" src="images/profile-pic.jpeg"> </div>
+                <div class="v1-p">
+                    <p class="p1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="p2">Marques Brownlee</p>
+                    <p class="p3">3.4M views · 6 months ago</p>
+            </div>
+            </div> 
+        </div>
+        <div class="v2">
+                        <div class="image"> 
+                <img class="first-image" src="images/thumbnail-2.webp" >
+            </div>
+            <div class="v1-grid" style="display:grid; grid-template-columns: 40px 1fr;">
+                <div class="profile"> <img class="profile-pic" src="images/profile-pic2.jpeg"> </div>
+                <div class="v1-p">
+                    <p class="p1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="p2">Marques Brownlee</p>
+                    <p class="p3">3.4M views · 6 months ago</p>
+            </div>
+            </div> 
+        </div>
+        <div class="v3" >
+                        <div class="image"> 
+                <img class="first-image" src="images/thumbnail-3.webp" >
+            </div>
+            <div class="v1-grid" style="display:grid; grid-template-columns: 40px 1fr;">
+                <div class="profile"> <img class="profile-pic" src="images/profile-pic3.jpeg"> </div>
+                <div class="v1-p">
+                    <p class="p1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="p2">Marques Brownlee</p>
+                    <p class="p3">3.4M views · 6 months ago</p>
+            </div>
+            </div> 
+        </div>
+        <div class="v4">
+                        <div class="image"> 
+                <img class="first-image" src="images/thumbnail-4.webp" >
+            </div>
+            <div class="v1-grid" style="display:grid; grid-template-columns: 40px 1fr;">
+                <div class="profile"> <img class="profile-pic" src="images/profile-pic4.jpeg"> </div>
+                <div class="v1-p">
+                    <p class="p1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="p2">Marques Brownlee</p>
+                    <p class="p3">3.4M views · 6 months ago</p>
+            </div>
+            </div> 
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
